@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+}
+.floating-name {
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: chartreuse;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.floating-name a {
+    color: azure;
+}
+
+.jumbotron {
+    text-align: center;
+    background: none;
+    margin-bottom: 0;    
+}
+.jumbotron p{
+    margin-bottom: 0;
+}
+
+.nav-right li {
+    text-align: right;
+}
+
+.text-container {
+    background: #e9f0ea;
+}
+
+.enroll-btn {
+    background-color: red;
+    display: block;
+    margin: auto;
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+
+.enroll-btn:hover {
+    color: aliceblue;
+    box-shadow: 1px 1px #888888;
+    font-size: 17px;
+}
+
+.bottom-bt-container {
+    padding: 20px;
+}
+
+.bottom-bt-img {
+    border: 5px solid #555;
+}
+
+.btn-danger {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.text-center {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: black;
+    color: aliceblue;
+}
+
+.paragraph {
+    display: block;
+    margin: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.footer-image {
+    border-radius: 5%;
+}
+
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    /*  width: 50px;*/
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.modal-dialog{
+    display: block;
+    max-width: 600px;
+}
+
+
+input{
+    border: none;
+    border-bottom: 2px solid #cccccc;
+    
+}
+
+input:focus{
+    border: none;
+    border-bottom: 2px solid #cccccc;     
+}
